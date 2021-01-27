@@ -70,7 +70,7 @@
 		<td class="d-print-none">
 			<a class="btn btn-sm btn-warning" href="editform.jsp?id=${u.getSeq()}">Edit</a> <%--EL--%>
 			<a class="btn btn-sm btn-danger" href="javascript:delete_ok('${u.getSeq()}')">Delete</a>
-            <a class="btn btn-sm" href="editform.jsp?id=${u.getSeq()}">More</a>
+            <a class="btn btn-sm" href="view.jsp?id=${u.getSeq()}">More</a>
 		</td> <%--EL--%>
 </c:forEach>
 </tbody>

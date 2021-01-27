@@ -9,6 +9,7 @@ public class BookVO {
 	private String writer;
 	private String content;
 	private Date regdate;
+	private String image;
 	
 	private int cnt;
 
@@ -58,6 +59,14 @@ public class BookVO {
 
 	public void setCnt(int cnt) {
 		this.cnt = cnt;
+	}
+
+	public String getImage() {
+		return image;
+	}
+
+	public void setImage(String image) {
+		this.image = image;
 	}
 	
 	

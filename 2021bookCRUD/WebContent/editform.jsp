@@ -60,6 +60,7 @@
       <textarea class="form-control" name="content" rows="7" cols="20"><%= u.getContent()%></textarea>
     </div>
 </div>
+
       <div class="form-group row">
         <label class="col-form-label col-sm-2"></label>
         <div class="col-sm-10">
